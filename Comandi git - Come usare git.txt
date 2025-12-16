@@ -1,3 +1,9 @@
 Comandi git - Come usare git
 
 git clone hhtps:eccetera (link repo da GitHub)  - copia la repo di GitHub nella cartella in cui si è al momento di lancio del comando
+
+git pull - da fare ogni volta che si inizia una sessione di lavoro. riceve le modifiche
+
+git add . - aggiunge nell'area di preparazione per il commit tutta la repo.
+git commit -m "messaggio di commit" - commit
+git push 
