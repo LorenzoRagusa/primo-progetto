@@ -1,0 +1,3 @@
+Comandi git - Come usare git
+
+git clone hhtps:eccetera (link repo da GitHub)  - copia la repo di GitHub nella cartella in cui si è al momento di lancio del comando
