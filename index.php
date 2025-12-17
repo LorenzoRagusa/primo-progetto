@@ -2,16 +2,10 @@
 $title = "Il mio sito personale";
 include 'assets/php/db.php';
 
-$sql = "SELECT id_insegnamento, nome, cfu FROM insegnamenti";
-$result = $conn->query($sql);
+$sql = "SELECT * FROM insegnamenti";
 
-if ($result->num_rows > 0) {
-    while($row = $result->fetch_assoc()) {
-        echo "<p>ID: ".$row['id_insegnamento']." - Nome: ".$row['nome']." - CFU: ".$row['cfu']."</p>";
-    }
-} else {
-    echo "<p>Nessun utente trovato</p>";
-}
+$res = query_lista($sql);
+
 ?>
 
 <!DOCTYPE html>
